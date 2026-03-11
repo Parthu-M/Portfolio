@@ -6,7 +6,7 @@ A personal portfolio website built using **HTML, CSS, and JavaScript** to showca
 
 Visit the website:
 
-[https://parthu-m.github.io/portfolio/](https://parthu-m.github.io/portfolio/)
+[https://parthu-m.github.io/Portfolio/](https://parthu-m.github.io/Portfolio/)
 
 ## ✨ Features
 
