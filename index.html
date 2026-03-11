@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Majjiga Parthu — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a href="#hero" class="nav-logo">MP</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="hero-content">
+        <p class="hero-greeting">Hello, I'm</p>
+        <h1 class="hero-title">Majjiga Parthu</h1>
+        <p class="hero-tagline">B.Tech in Information Technology · AI & Software Development</p>
+        <p class="hero-summary">Building machine learning and RAG applications with Python and modern AI tools.</p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-outline">Get in Touch</a>
+        </div>
+      </div>
+      <div class="hero-accent"></div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="container">
+        <h2 class="section-title">About</h2>
+        <div class="about-content">
+          <p class="about-text">I'm a B.Tech graduate in Information Technology from Vellore Institute of Technology, with a strong focus on artificial intelligence and full-stack software development. I build production-ready applications that combine machine learning, modern APIs, and clean user interfaces.</p>
+          <p class="about-text">My experience spans Retrieval-Augmented Generation (RAG) systems, computer vision with transformer models, and end-to-end ML pipelines—from data cleaning and modeling to deployment. I'm comfortable working across the stack: Python for ML and backend, and JavaScript, HTML, and CSS for the front end. I enjoy turning complex problems into simple, scalable solutions.</p>
+          <p class="about-focus"><strong>Focus areas:</strong> Machine Learning &amp; AI · RAG &amp; LLM Applications · Data Pipelines · Web Development</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section education">
+      <div class="container">
+        <h2 class="section-title">Education</h2>
+        <div class="edu-grid">
+          <article class="edu-card">
+            <div class="edu-header">
+              <h3>B.Tech — Information Technology</h3>
+              <span class="edu-year">2021–2025</span>
+            </div>
+            <p class="edu-school">Vellore Institute of Technology, Vellore</p>
+            <p class="edu-meta">GPA: 7.77/10</p>
+          </article>
+          <article class="edu-card">
+            <div class="edu-header">
+              <h3>Class XII</h3>
+              <span class="edu-year">2019–2021</span>
+            </div>
+            <p class="edu-school">SDR's Akanksha Junior College, Nandyal</p>
+            <p class="edu-meta">93.8%</p>
+          </article>
+          <article class="edu-card">
+            <div class="edu-header">
+              <h3>Class X</h3>
+              <span class="edu-year">2018–2019</span>
+            </div>
+            <p class="edu-school">Sri Chaitanya Public School, Nandyal</p>
+            <p class="edu-meta">CGPA: 10/10</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="project-list">
+          <article class="project-card">
+            <div class="project-header">
+              <h3>GenAI RAG Chat Assistant</h3>
+              <a href="https://production-grade-genai-assistant-with-rag-41a7.onrender.com/" class="project-link" target="_blank" rel="noopener">View deployment →</a>
+            </div>
+            <p class="project-intro">A Retrieval-Augmented Generation chatbot that answers from a custom knowledge base using semantic search and embeddings.</p>
+            <ul class="project-details">
+              <li>Built RAG pipeline with semantic search and custom embeddings for accurate retrieval.</li>
+              <li>Integrated Google Gemini API for context-aware, generated responses.</li>
+            </ul>
+            <div class="project-tags">
+              <span>Python</span><span>RAG</span><span>Gemini API</span><span>Embeddings</span><span>JavaScript</span>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-header">
+              <h3>Skin Cancer Prediction using Swin Transformer</h3>
+              <a href="https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000" class="project-link" target="_blank" rel="noopener">Dataset →</a>
+            </div>
+            <p class="project-intro">Classifying skin cancer types from dermatoscopic images using the Swin Transformer—a hierarchical Vision Transformer with shifted-window attention.</p>
+            <ul class="project-details">
+              <li>Achieved <strong>97% test accuracy</strong> on the HAM10000 dataset (7 diagnostic categories, 10k+ images).</li>
+              <li>Leveraged Swin Transformer for strong image classification and efficient scaling on high-resolution inputs.</li>
+            </ul>
+            <div class="project-tags">
+              <span>Python</span><span>Swin Transformer</span><span>Vision Transformer</span><span>PyTorch</span><span>Medical Imaging</span>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-header">
+              <h3>Auto_Data_Cleanser</h3>
+              <a href="https://github.com/Parthu-M/Auto_Data_Cleanser" class="project-link" target="_blank" rel="noopener">View repo →</a>
+            </div>
+            <p class="project-intro">Flask web app to upload, clean, analyze, and visualize CSV files with an interactive report and data dashboard.</p>
+            <ul class="project-details">
+              <li>Automated cleaning: rename columns, fill missing values, remove duplicates, standardize text.</li>
+              <li>Summary statistics and dashboard with graphs and data previews; download cleaned CSV.</li>
+            </ul>
+            <div class="project-tags">
+              <span>Python</span><span>Flask</span><span>Pandas</span><span>Matplotlib</span><span>Seaborn</span><span>Bootstrap</span>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-header">
+              <h3>Crop Yield Prediction Web App</h3>
+              <a href="https://github.com/Parthu-M" class="project-link" target="_blank" rel="noopener">View repo →</a>
+            </div>
+            <p class="project-intro">Flask web app that predicts agricultural crop yield from climate, soil, and crop parameters using multiple machine learning models.</p>
+            <ul class="project-details">
+              <li>Inputs: region, soil type, crop, rainfall, temperature, fertilizer/irrigation, weather, days to harvest. Real-time predictions with a clean form-based UI.</li>
+              <li>Ensemble of models—Linear Regression, Ridge, Gradient Boosting, LightGBM, CatBoost, XGBoost—with side-by-side prediction comparison.</li>
+            </ul>
+            <div class="project-tags">
+              <span>Python</span><span>Flask</span><span>Scikit-learn</span><span>LightGBM</span><span>CatBoost</span><span>XGBoost</span><span>Bootstrap</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-group">
+            <h4>Programming</h4>
+            <p>Python, Java, SQL</p>
+          </div>
+          <div class="skill-group">
+            <h4>Web Development</h4>
+            <p>HTML, CSS, JavaScript</p>
+          </div>
+          <div class="skill-group">
+            <h4>AI / Machine Learning</h4>
+            <p>Machine Learning, RAG, LLM Applications, Data Analysis</p>
+          </div>
+          <div class="skill-group">
+            <h4>Libraries & Tools</h4>
+            <p>Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn</p>
+          </div>
+          <div class="skill-group">
+            <h4>Technologies</h4>
+            <p>Google Gemini API, Git, REST APIs</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="certifications" class="section certifications">
+      <div class="container">
+        <h2 class="section-title">Certifications</h2>
+        <ul class="cert-list">
+          <li>
+            <span class="cert-name">Ethnus MERN Full Stack</span>
+            <a href="https://drive.google.com/file/d/1TAq2lgSChCT0bVQu0QEBgh1_pzq6dDM3/view?usp=sharing" target="_blank" rel="noopener" class="cert-link">Certificate</a>
+          </li>
+          <li>
+            <span class="cert-name">Google Cloud Computing Foundations</span>
+            <a href="https://drive.google.com/file/d/1j60cG4gsbuK1_XK9jXneSBzbaMVG6s2e/view?usp=sharing" target="_blank" rel="noopener" class="cert-link">Certificate</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="extra" class="section extra">
+      <div class="container">
+        <h2 class="section-title">Extra Curricular</h2>
+        <article class="extra-card">
+          <div class="extra-header">
+            <h3>British Airways Data Science Job Simulation – Forage</h3>
+            <a href="https://drive.google.com/file/d/13ejUbgXG9OzSbZu1PFc1P-TKfFFwJHSD/view?usp=sharing" target="_blank" rel="noopener" class="cert-link">Certificate</a>
+          </div>
+          <ul>
+            <li>Scraped and analyzed customer review data to extract insights.</li>
+            <li>Built predictive model to understand factors influencing buying behavior.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-grid">
+          <a href="mailto:majjigaparthu2004@gmail.com" class="contact-item contact-item-email">
+            <i class="contact-icon fa-solid fa-envelope" aria-hidden="true"></i>
+            <span class="contact-label">majjigaparthu2004@gmail.com</span>
+          </a>
+          <a href="tel:+917799177078" class="contact-item">
+            <i class="contact-icon fa-solid fa-phone" aria-hidden="true"></i>
+            <span class="contact-label">+91 77991 77078</span>
+          </a>
+          <span class="contact-item contact-item-static">
+            <i class="contact-icon fa-solid fa-location-dot" aria-hidden="true"></i>
+            <span class="contact-label">Nandyal, India</span>
+          </span>
+          <a href="https://linkedin.com/in/majjigaparthu" target="_blank" rel="noopener" class="contact-item">
+            <i class="contact-icon fa-brands fa-linkedin-in" aria-hidden="true"></i>
+            <span class="contact-label">LinkedIn</span>
+          </a>
+          <a href="https://github.com/Parthu-M" target="_blank" rel="noopener" class="contact-item">
+            <i class="contact-icon fa-brands fa-github" aria-hidden="true"></i>
+            <span class="contact-label">GitHub</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Majjiga Parthu. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
